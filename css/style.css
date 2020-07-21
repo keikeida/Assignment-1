@@ -15,6 +15,7 @@ section{
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	background-color: lightblue
 }
 
 header{
@@ -27,7 +28,7 @@ header{
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: wheat;
+	background-color: lightblue;
 }
 
 nav a, nav h3{
@@ -37,13 +38,29 @@ nav a, nav h3{
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
+	text-align: center;
 }
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+	
 
+h1{
+	text-align: center;
+}
+
+h2{
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+
+}
+
+p1{text-align: center;}
 
 /* Simple grid */
 .g-row{
@@ -61,8 +78,9 @@ nav a:hover{
 }
 
 .g-30{
-	width: 30%;
-	float: left;
+    width: 30%;
+    float: left;
+    text-align: justify;
 }
 
 .g-70{
@@ -78,3 +96,6 @@ nav a:hover{
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
 }
+
+
+
