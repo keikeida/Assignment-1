@@ -7,6 +7,7 @@
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
+	align-content: center;
 }
 
 section{
@@ -49,6 +50,7 @@ nav a:hover{
 
 h1{
 	text-align: center;
+	font-size: "5"
 }
 
 h2{
@@ -86,6 +88,11 @@ p1{text-align: center;}
 .g-70{
 	width: 70%;
 	float: left;
+}
+
+.g-50-2{
+	width: 30%;
+	float:center
 }
 
 .show{
